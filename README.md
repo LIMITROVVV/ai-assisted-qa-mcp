@@ -1,8 +1,12 @@
 # AI-assisted QA with Claude and MCP servers
 
+![claude](https://img.shields.io/badge/Claude-MCP-6F42C1?logo=anthropic&logoColor=white) ![qa](https://img.shields.io/badge/focus-backend%20QA-1A7F37) ![license](https://img.shields.io/badge/license-MIT-green)
+
 I've been doing QA for five-plus years, mostly backend and integration testing - REST, gRPC, Kafka, that kind of thing. About a year ago I started weaving Claude into my daily workflow, and then MCP servers made it genuinely useful rather than just a novelty.
 
 This repo isn't a framework, it's a collection of configs, prompts, and notes from that experience. The idea is to show one working setup, not the definitive way.
+
+![architecture diagram](docs/img/ai.svg)
 
 ## What this is (and isn't)
 
