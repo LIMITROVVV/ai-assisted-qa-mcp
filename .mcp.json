@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "postman": {
+      "command": "npx",
+      "args": ["-y", "@postman/mcp-postman"],
+      "env": {
+        "POSTMAN_API_KEY": "${POSTMAN_API_KEY}"
+      }
+    },
+    "allure": {
+      "command": "npx",
+      "args": ["-y", "@allure-framework/allure-mcp"],
+      "env": {
+        "ALLURE_TOKEN": "${ALLURE_TOKEN}",
+        "ALLURE_ENDPOINT": "https://your-allure-instance.example.com"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/your/project",
+        "/path/to/your/specs"
+      ]
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      }
+    }
+  }
+}

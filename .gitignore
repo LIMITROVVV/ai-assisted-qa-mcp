@@ -1,0 +1,31 @@
+# Environment variables - never commit these
+.env
+.env.local
+.env.*
+
+# MCP server local overrides (keep .mcp.json, ignore personal overrides)
+.mcp.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node (for MCP server packages)
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Test output / temp
+/tmp/
+*.log
+allure-results/
+allure-report/
